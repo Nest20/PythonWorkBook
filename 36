@@ -1,0 +1,7 @@
+letter = input('Input 1 letter')
+if letter in 'aeuio':
+  print('Vowel')
+elif letter == 'y':
+  print('Depends')
+else:
+  print('Consonant')
