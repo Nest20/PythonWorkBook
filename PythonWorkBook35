@@ -1,0 +1,7 @@
+num = int(input('Input human year'))
+if num <= 2 and num >= 0:
+  print(num*10.5, 'dog years.')
+elif num < 0:
+  print('No negative numbers, you wet napkin')
+else:
+  print((2*10.5) + ((num-2)*4), 'dog years.')
