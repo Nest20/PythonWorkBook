@@ -1,0 +1,6 @@
+zodiac = ('Dragon', 'Snake', 'Horse', 'Sheep', 'Monkey', 'Rooster', 'Dog', 'Pig', 'Rat', 'Ox', 'Tiger', 'Hare')
+yr = int(input())
+if yr >= 0:
+  print(zodiac[(yr+4)%12])
+else:
+  print('Error')
