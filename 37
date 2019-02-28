@@ -1,0 +1,6 @@
+shape = ('Triangle', 'Quadrilateral', 'Pentagon', 'Hexagon', 'Heptagon', 'Octagon', 'Nonagon', 'Decagon')
+sides = int(input('Insert number of sides'))
+if sides <= 10 and sides >= 3:
+  print(shape[sides-3])
+else:
+  print('Error')
